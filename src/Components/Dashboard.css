@@ -1,0 +1,47 @@
+.dashboard-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.financial-summary {
+  display: flex;
+  flex-direction: column; /* Esto alinea los items verticalmente */
+  justify-content: center;
+  align-items: center; /* Esto los centra en el eje horizontal */
+  margin-block-end: 20px;
+}
+
+.summary-item {
+  margin-block-end: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-inline-start: 10px;
+  margin-block-start: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  inline-size: 150px;
+  text-align: center;
+}
+
+.chart-container {
+  margin-block-end: 30px;
+  inline-size: 80%;
+  max-inline-size: 600px;
+  margin: 0 auto; /* Esto asegura que el gráfico esté centrado */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}

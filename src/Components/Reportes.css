@@ -1,0 +1,86 @@
+.reportes-container {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  text-align: center; /* Centra el contenido del contenedor */
+}
+
+.reportes-description {
+  font-size: 1.2em;
+  color: #333;
+  margin-block-end: 20px; /* Agrega espacio entre la descripción y los botones */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 20px; /* Espacio entre los botones */
+  margin-block-start: 20px; /* Agrega espacio superior para los botones */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-report {
+  background-color: #4caf50;
+  color: white;
+}
+
+.download-report {
+  background-color: #2196f3;
+  color: white;
+}
+
+.reportes-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-container {
+  inline-size: 100%;
+  max-inline-size: 800px;
+  margin-block-end: 30px;
+}
+
+.financial-summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  inline-size: 100%;
+  max-inline-size: 500px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.modify-values {
+  margin-block-start: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  inline-size: 100%;
+  max-inline-size: 500px;
+}
+
+.modify-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.update-values {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-block-start: 20px;
+}
